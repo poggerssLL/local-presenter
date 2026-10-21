@@ -1,0 +1,73 @@
+{
+  "schema": "local-presenter/document-graph-v1",
+  "method": "deterministic_markdown_headings_and_local_links",
+  "scope": "planning_document_structure_only",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "fb0186381a4faeda226cf306009c91285db357f8f4db627660e00b1a3efd100a"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "0ef882933c7feb141f8d1003ec606fcb58c773f83c7aebda9ed47c950802bd8b"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "c01ec849da876082f90da67ce21e59f565c50d27dedb1dd0f8de25fae750777a"
+    },
+    {
+      "path": "docs/BRIEF.md",
+      "sha256": "87e8f7f92c80f5859b99d5b479a0954ba2f241cb5edcf27fbcc79c77fa325c35"
+    },
+    {
+      "path": "docs/DELIVERY.md",
+      "sha256": "4362ca670221da169e92137d479d2ca52ca0b8e7e4b779f0562994296bf5b10b"
+    },
+    {
+      "path": "docs/GRAPH.md",
+      "sha256": "e3d92ecf38752bffd888b542f627fe9a940f90c705d34813bc4693362a1f214d"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_PLAN.md",
+      "sha256": "3b610376a043511fa24522ed0a5d6671162015d295a01bbeca318a11b32ca309"
+    },
+    {
+      "path": "docs/NEXT_PHASE_PROMPT.md",
+      "sha256": "ce9c8e29baf75d377c5f642cff2dcb266490833ddff3067dd27d806759a78f06"
+    },
+    {
+      "path": "docs/REMOTE_JOBS.md",
+      "sha256": "983561e2e05618eb0a2e1a409e5483b908bdf52a6755165918b9951c38eabdca"
+    },
+    {
+      "path": "docs/REVIEW.md",
+      "sha256": "9ccc9b93441ec8c616ea8249be83c4de204cd052cd318eee8e9302df902509a0"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "sha256": "c774fbd4a689deae3dcdb620719709fa982577a9c0d748c9b4d4dec41c153cfc"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "19c8df10cbc6f706b2516957243524f83ffd14a370e649b2eb4a9cea54052565"
+    },
+    {
+      "path": "docs/approaches/A_PORTRAIT.md",
+      "sha256": "f0ddcc9513339614e759d8fb6812d6538c6ac0eaec241e71a0980e5f12c5283e"
+    },
+    {
+      "path": "docs/approaches/B_REFERENCE_VIDEO.md",
+      "sha256": "7c4ec572b80d4135127a05040b74dcfd2680ec58a72ae33247806306bda22703"
+    },
+    {
+      "path": "docs/approaches/C_FACE_3D.md",
+      "sha256": "32c40738b82ea622bc9346c0bf5679cbc83a3f198217defba2c4cb0614c9544c"
+    }
+  ],
+  "nodes": 107,
+  "edges": 161,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "semantic_extraction": false,
+  "external_provider": false
+}

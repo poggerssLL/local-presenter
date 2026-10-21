@@ -1,0 +1,10 @@
+.git/
+.venv/
+private/
+data/
+models/
+outputs/
+runtime/
+.runtime/
+graphify-out/
+__pycache__/
