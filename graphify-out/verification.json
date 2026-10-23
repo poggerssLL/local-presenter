@@ -1,19 +1,17 @@
 {
   "scope": "planning_documentation_only",
-  "verified_on": "2026-10-21",
+  "verified_on": "2026-10-23",
   "publication_authorized": true,
   "target_visibility": "PUBLIC",
   "documents": 15,
-  "nodes": 107,
-  "edges": 161,
-  "candidate_files": 24,
+  "nodes": 109,
+  "edges": 166,
   "checks": {
     "coverage": "pass",
     "graph": "pass",
     "privacy": "pass",
-    "whitespace": "pass",
     "links": "pass",
-    "python_syntax": "pass"
+    "whitespace": "pass"
   },
   "graphify_query": "pass",
   "browser_visual_qa": false,

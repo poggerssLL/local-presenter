@@ -46,4 +46,4 @@ Não declarar uma resolução facial 1080p apenas porque o compositor exportou 1
 
 Linux só é considerado após registrar um bloqueio Windows específico e identificar uma combinação de driver/framework/modelo com evidência melhor para RX 7600. Dual boot, partição e instalação exigem autorização própria e backup; este plano não executa essas ações.
 
-Se a abordagem A falhar, comparar B pelos mesmos critérios e licenças. A abordagem C só avança por escolha explícita, com prova de rig/visemas. CPU ou outra abordagem nunca são fallback silencioso: registrar escolha, custo de tempo e resultado esperado.
+Após a pesquisa documental de B e C, escolher explicitamente a abordagem do piloto pelos mesmos critérios e licenças. A permanece como estudo histórico e foi descartada para aplicação em 2026-10-23. Se C for escolhida, exigir prova de rig/visemas; se B for escolhida, exigir prova de costura facial e repetição. CPU ou troca de abordagem nunca são fallback silencioso: registrar escolha, custo de tempo e resultado esperado.

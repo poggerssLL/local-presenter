@@ -5,11 +5,11 @@
   "sources": [
     {
       "path": "README.md",
-      "sha256": "fb0186381a4faeda226cf306009c91285db357f8f4db627660e00b1a3efd100a"
+      "sha256": "099c6aa079e3e993f90d7dae1d0f51c6ff77452ea590216e64a330f7056aaa97"
     },
     {
       "path": "AGENTS.md",
-      "sha256": "0ef882933c7feb141f8d1003ec606fcb58c773f83c7aebda9ed47c950802bd8b"
+      "sha256": "3a3d7889c3d1a74fded415dc20686589aa0393b682f85765cbccefa0dcaaccc0"
     },
     {
       "path": "docs/ARCHITECTURE.md",
@@ -29,11 +29,11 @@
     },
     {
       "path": "docs/IMPLEMENTATION_PLAN.md",
-      "sha256": "3b610376a043511fa24522ed0a5d6671162015d295a01bbeca318a11b32ca309"
+      "sha256": "14942f7fb6f52dffcf5cb8d6313a05438244065f0b590ed01aff6d7b706f519b"
     },
     {
       "path": "docs/NEXT_PHASE_PROMPT.md",
-      "sha256": "ce9c8e29baf75d377c5f642cff2dcb266490833ddff3067dd27d806759a78f06"
+      "sha256": "3f2f5b496b19a5980df1241fbe1e7fd9bb7cf3509b6dec9314f5e95093a7e934"
     },
     {
       "path": "docs/REMOTE_JOBS.md",
@@ -49,7 +49,7 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "sha256": "19c8df10cbc6f706b2516957243524f83ffd14a370e649b2eb4a9cea54052565"
+      "sha256": "c33dafe30f11aa89f0a62c77833f5d4f10309346abb77f5c463d46c88430be50"
     },
     {
       "path": "docs/approaches/A_PORTRAIT.md",
@@ -57,15 +57,15 @@
     },
     {
       "path": "docs/approaches/B_REFERENCE_VIDEO.md",
-      "sha256": "7c4ec572b80d4135127a05040b74dcfd2680ec58a72ae33247806306bda22703"
+      "sha256": "0d98f0372839f12bcda2e1cc4c5ca84b15033798f8defc4ee78f2cd15dcc949c"
     },
     {
       "path": "docs/approaches/C_FACE_3D.md",
-      "sha256": "32c40738b82ea622bc9346c0bf5679cbc83a3f198217defba2c4cb0614c9544c"
+      "sha256": "af0157c2e54dfce119c4747bb20f47f27ebe83524a3490a3c9b5ff6dee710a99"
     }
   ],
-  "nodes": 107,
-  "edges": 161,
+  "nodes": 109,
+  "edges": 166,
   "input_tokens": 0,
   "output_tokens": 0,
   "semantic_extraction": false,

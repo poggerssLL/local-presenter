@@ -2,9 +2,9 @@
 
 Planejamento de uma ferramenta local para gerar apresentações gravadas com voz sintetizada a partir de referência autorizada e uma aproximação visual do próprio apresentador.
 
-**Estado:** planejamento revisado e bootstrap documental; nenhuma aplicação ou inferência implementada. O objetivo é produção offline após preparação, sem obrigação de API paga. O caso inicial é uma apresentação acadêmica sobre uma envasadora de água em copos.
+**Estado:** planejamento e pesquisa documental; nenhuma aplicação ou inferência implementada. O objetivo é produção offline após preparação, sem obrigação de API paga. O caso inicial é uma apresentação acadêmica sobre uma envasadora de água em copos.
 
-Comece pelo [plano de implementação](docs/IMPLEMENTATION_PLAN.md). Recomendação: piloto de retrato animado por áudio de 20 segundos no desktop Windows 11 antes de construir a ferramenta. Voz, rosto, tempo e suporte AMD/CPU precisam de prova real.
+**Direção atual (2026-10-23):** a pesquisa documental das abordagens [B, vídeo de referência](docs/approaches/B_REFERENCE_VIDEO.md) e [C, rosto 3D](docs/approaches/C_FACE_3D.md) foi aprofundada; a escolha do piloto ainda está pendente. A abordagem [A, retrato animado](docs/approaches/A_PORTRAIT.md) permanece documentada como estudo histórico, mas foi descartada para aplicação por decisão do proprietário. O [plano](docs/IMPLEMENTATION_PLAN.md) registra os gates propostos. Voz, rosto, tempo e suporte AMD/CPU ainda precisam de prova real.
 
 ## Documentação
 
@@ -18,7 +18,7 @@ Comece pelo [plano de implementação](docs/IMPLEMENTATION_PLAN.md). Recomendaç
 - [Contrato de trabalhos locais/remotos](docs/REMOTE_JOBS.md)
 - [Validação e critérios de aceite](docs/VALIDATION.md)
 - [Fontes e limites de compatibilidade/licença](docs/SOURCES.md)
-- [Próximo prompt, ainda não despachado](docs/NEXT_PHASE_PROMPT.md)
+- [Prompt preparado para futura fase técnica; ainda não despachado](docs/NEXT_PHASE_PROMPT.md)
 - [Entrega e evidências](docs/DELIVERY.md)
 - [Grafo documental e reprodução](docs/GRAPH.md)
 

@@ -39,8 +39,16 @@ Usar o contrato comum de [trabalhos](../REMOTE_JOBS.md) e a [arquitetura](../ARC
 - Gate B3: duas transições de slide sem salto evidente ou loop no meio da fala.
 - Gate B4: minuto de teste com integridade do MP4 e aprovação humana.
 
-Critérios comuns: [validação](../VALIDATION.md). Rejeitar B se movimentos distorcerem a identidade, costura facial for persistente ou dependências não tiverem caminho viável dentro do orçamento experimental. A volta à abordagem A depende de decisão explícita; remover o avatar ou usar voz de catálogo reduz o requisito e precisa ser aceito como mudança de escopo.
+Critérios comuns: [validação](../VALIDATION.md). Rejeitar B se movimentos distorcerem a identidade, costura facial for persistente ou dependências não tiverem caminho viável dentro do orçamento experimental. A abordagem A foi descartada para aplicação em 2026-10-23; qualquer revisão dessa decisão exigiria pedido explícito. Remover o avatar ou usar voz de catálogo reduz o requisito e precisa ser aceito como mudança de escopo.
 
 ## Estimativas e desconhecidos
 
 O estudo atribuiu velocidades de CPU, consumo de VRAM e estabilidade sem medição local; a revisão removeu essas previsões. Desconhecidos: qualidade pt-BR, tempo de pré-processamento, dependências no Windows/RX 7600, tempo por segmento e perceptibilidade do looping. A escolha final depende do piloto comparável de 20 segundos.
+
+## Pesquisa documental adicional — 2026-10-23
+
+Argon, em esforço médio e somente leitura, pesquisou candidatos locais; o coordenador conferiu as afirmações abaixo nas fontes originais. O [MuseTalk 1.5](https://github.com/TMElyralab/MuseTalk) segue como candidato principal **para investigação**, pois o projeto publica inferência em Windows, mas seu guia de instalação usa PyTorch CUDA e `mmcv`/`mmpose`; o fluxo de preparação facial e os pesos auxiliares precisam de inventário antes de uma escolha técnica. O teste publicado em GPU NVIDIA de 4 GB não é medição ou garantia para a RX 7600. O código é MIT, mas os termos de cada peso e componente auxiliar são separados.
+
+O [LatentSync](https://github.com/bytedance/LatentSync) declara mínimo de 8 GB para inferência 1.5 e 18 GB para 1.6; a versão 1.6 não cabe no orçamento nominal de VRAM informado. O código de inferência atual usa dispositivo `cuda`, portanto nenhum desses números comprova execução em AMD/Windows. VideoReTalking e Wav2Lip continuam comparadores documentais sujeitos a revisão de licenças e dependências, sem adoção automática.
+
+O menor experimento futuro de B deve verificar, nesta ordem, preparação do vídeo/rosto (B1), 20 segundos com voz nova aprovada (B2), duas transições e repetição perceptível (B3), e um minuto completo com revisão humana e integridade do MP4 (B4). Registrar versões, dispositivo real, tempo, RAM/VRAM, termos dos pesos, costura e semelhança. Nada disso foi executado nesta pesquisa.
